@@ -47,22 +47,23 @@
   color: rgb(69, 69, 69);
 }
 
-
-.Search-button {
-  position: absolute;
-  top: 25%;
-  left: 56%;
-  border-radius: 100%;
+.Search-icon {
+  position: fixed;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translate(-80%, 0%);
+  z-index: 1;
   background: #eae0e0;
   box-shadow: inset 5px -5px 10px #d3caca,
             inset -5px 5px 10px #fff6f6;
+
 }
 
-.Search-button:hover {
+.Search-icon:hover {
   background: linear-gradient(145deg, #d3caca, #faf0f0);
-box-shadow:  5px 5px 6px #ded5d5,
+  box-shadow:  5px 5px 6px #ded5d5,
              -5px -5px 6px #f6ebeb;
-
 }
 
 
